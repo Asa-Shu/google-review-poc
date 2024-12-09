@@ -96,7 +96,7 @@ async function main() {
   await wait(1000);
   // スクロール可能な要素を取得
   const scrollableElement = document.querySelector('.review-dialog-list');
-  for (let i = 0; i < 2000; i++) {
+  for (let i = 0; i < 100; i++) {
     await wait(300);
     const scrollableElement = document.querySelector('.review-dialog-list');
     if (scrollableElement.scrollTop + scrollableElement.clientHeight !== scrollableElement.scrollHeight) {
